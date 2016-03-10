@@ -123,8 +123,8 @@ class NetworkAnalyse:
 
 
 if __name__ == '__main__':
-    matrixfile = '/media/quincy1994/软件/礼明/项目/数据集/小型数据集整理/悲惨世界人物关系77节点/l_data.xls'
-    labelfile = '/media/quincy1994/软件/礼明/项目/数据集/小型数据集整理/悲惨世界人物关系77节点/l_labels.xls'
+    matrixfile = '/悲惨世界人物关系77节点/l_data.xls'
+    labelfile = '/小型数据集整理/悲惨世界人物关系77节点/l_labels.xls'
     network = NetworkAnalyse(matrixfile, labelfile)
     print "----result-----"
     print "degree:", network.drawGraph("degree")
